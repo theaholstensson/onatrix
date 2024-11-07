@@ -1,0 +1,35 @@
+.topbar {
+    padding-top: 20px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        .socials {
+            display: flex;
+            gap: 15px;
+
+            a {
+                border: 1px;
+                border-color: red;
+            }
+        }
+    }
+}
+
+.navbar {
+    display: flex;
+
+    .container {
+
+        .menu {
+            
+
+            a {
+                padding-right: 70px;
+                color: var(--color-border-primari);
+                font-weight: 600;
+            }
+        }
+    }
+}

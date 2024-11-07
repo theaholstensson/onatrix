@@ -1,0 +1,159 @@
+.hero {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    .container {
+
+        .content {
+            width: 45%;
+        }
+
+        p {
+            padding-bottom: 20px;
+        }
+    }
+}
+
+.about-us {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    .container {
+        
+        .content {
+            width: 55%;
+
+            .text {
+                p {
+                    padding-top: 20px;
+                }
+            }
+        .signature {
+            p {
+                padding-top: 10px;
+            }
+        }
+        }
+    }
+}
+
+.our-services {
+    padding: 120px 0;
+
+    .container {
+
+        .headline {
+            text-align: center;
+
+            h2 {
+                width: 50%;
+                margin: auto;
+            }
+        }
+    }
+
+    .content-grid {
+        margin-top: 40px;
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: repeat(2, 1fr); 
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+
+        .service-container {
+            background: #FFFFFF;
+            width: 370px;
+            
+
+            h5 {
+                margin: 30px;
+            }
+
+            p {
+                margin: 30px;
+
+            }
+        }
+    }
+}
+
+.our-story {
+    padding-top: 100px;
+
+    .container {
+
+        .content {
+            padding-bottom: 90px;
+
+            .info {
+                text-align: center;
+                width: 50%;
+                margin: auto;
+
+                p {
+                    margin-top: 50px;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+}
+
+.success-stories {
+    padding-top: 100px;
+    height: 830px;
+
+    .container {
+        
+        .headline {
+            text-align: center;
+        }
+        
+        .content {
+            display: flex;
+            justify-content: space-around;
+            margin: 70px 0px;
+
+            .story-container {
+                text-align: center;
+                width: 25%;
+
+                h3 {
+                    font-size: 100px;
+                    font-weight: 500;
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        img {
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+        }
+    }
+}
+
+.our-projects {
+    padding-top: 260px;
+
+    .container {
+        margin-top: 90px;
+    }
+
+    
+}
+
+.partners {
+    padding: 90px 0px;
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .content {
+        display: flex;
+    }
+}

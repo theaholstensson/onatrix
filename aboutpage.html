@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="sv-se">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://kit.fontawesome.com/a576612222.css" crossorigin="anonymous"> 
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/theme.css">
-    <title>About Us</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://kit.fontawesome.com/a576612222.css" crossorigin="anonymous"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"rel="stylesheet"integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"crossorigin="anonymous"/>
+        <link rel="stylesheet" href="/css/scss/main.css">
+        <link rel="stylesheet" href="/css/scss/colors/theme.css">
+    
+        <title>About Us</title>
+    </head>
 <body>
     <div class="wrapper">
 
         <header>
-            <div class="topbar bg-primary">
+            <div class="topbar bg-primari">
                 <div class="container">
                     <p>Klarabergsviadukten 90, 111 64 Stockholm</p>
                     <div class="socials">
@@ -23,24 +25,26 @@
                 </div>
             </div>
             <div class="navbar bg-light">
-                <img src="/images/logotype.svg" alt="">
+                <div class="container">
+                    <a href="/homepage.html"><img src="/images/logotype.svg" alt=""></a>
     
-                <div class="menu">
-                    <a class="menu-link" href="#">About</a>
-                    <a class="menu-link" href="#">Services</a>
-                    <a class="menu-link" href="#">Projects</a>
-                    <a class="menu-link" href="#">Contact</a>
+                    <div class="menu">
+                        <a class="menu-link" href="/aboutpage.html">About</a>
+                        <a class="menu-link" href="#">Services</a>
+                        <a class="menu-link" href="#">Projects</a>
+                        <a class="menu-link" href="#">Contact</a>
+                    </div>
+        
+                    <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
-    
-                <i class="fa-solid fa-magnifying-glass"></i>
             </div>
         </header>
 
         <main>
 
             <section class="breadcrumb bg-gray">
-                <img src="/images/Rectangle-bg2.svg" alt="">
-                <img src="/images/Rectangle-bg.svg" alt="">
+                <img class="img-left" src="/images/Rectangle-bg2.svg" alt="">
+                <img class="img-right" src="/images/Rectangle-bg.svg" alt="">
                 <div class="container">
                     <h2>About Us</h2>
                     <div class="navigation">
@@ -85,14 +89,22 @@
                             <h6>GREAT REVIEWS FOR OUR SERVICES</h6>
                             <h2>Trusted by some Biggest Names</h2>
                         </div>
-                        <p>Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing. Holistically pontificate installed base portals.</p>
-                        <!--Stjärnor, namn-->
+                        <p class="text">Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing. Holistically pontificate installed base portals.</p>
+                        <div class="stars">
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star"></i>
+                        </div>
+                        <p class="name">Kevin Gardner</p>
+                        <p class="work">Swedbank</p>
                     </div>
                     <img src="/images/about/kevin-gardner.jpg" alt="">
                 </div>
             </section>
 
-            <section class="our-expers">
+            <section class="our-experts">
                 <div class="container">
                     <div class="headline">
                         <h6>OUR EXPERT</h6>

@@ -1,6 +1,6 @@
 @include link-colors (
     --color-secondary,
-    --color-primary
+    --color-primari
 );
 
 @include theme-links (
@@ -10,7 +10,7 @@
 );
 
 @include theme-links (
-    'primary',
+    'primari',
     --color-secondary,
     --color-accent
 );
@@ -24,17 +24,17 @@
 @include theme-links (
     'accent',
     --color-secondary,
-    --color-primary
+    --color-primari
 );
 
 @include theme-links (
     'gray',
     --color-secondary,
-    --color-primary
+    --color-primari
 );
 
 @include theme-links (
     'light',
     --color-secondary,
-    --color-primary
+    --color-primari
 );

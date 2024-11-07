@@ -1,24 +1,24 @@
 @include heading-colors(
-    --color-primary,
-    --color-primary,
+    --color-primari,
+    --color-primari,
     --color-secondary,
-    --color-primary,
-    --color-primary,
+    --color-primari,
+    --color-primari,
     --color-secondary
 );
 
 @include theme-headings(
     'dark',
-    --color-primary,
-    --color-primary,
+    --color-primari,
+    --color-primari,
     --color-secondary,
-    --color-primary,
-    --color-primary,
+    --color-primari,
+    --color-primari,
     --color-secondary
 );
 
 @include theme-headings(
-    'primary',
+    'primari',
     --color-light,
     --color-light,
     --color-secondary,
@@ -29,40 +29,40 @@
 
 @include theme-headings(
     'secondary',
-    --color-primary,
-    --color-primary,
+    --color-primari,
+    --color-primari,
     --color-accent,
-    --color-primary,
-    --color-primary,
+    --color-primari,
+    --color-primari,
     --color-accent
 );
 
 @include theme-headings(
     'accent',
-    --color-primary,
-    --color-primary,
+    --color-primari,
+    --color-primari,
     --color-secondary,
-    --color-primary,
-    --color-primary,
+    --color-primari,
+    --color-primari,
     --color-secondary
 );
 
 @include theme-headings(
     'gray',
-    --color-primary,
-    --color-primary,
+    --color-primari,
+    --color-primari,
     --color-secondary,
-    --color-primary,
-    --color-primary,
+    --color-primari,
+    --color-primari,
     --color-secondary
 );
 
 @include theme-headings(
     'light',
-    --color-primary,
-    --color-primary,
+    --color-primari,
+    --color-primari,
     --color-secondary,
-    --color-primary,
-    --color-primary,
+    --color-primari,
+    --color-primari,
     --color-secondary
 );
