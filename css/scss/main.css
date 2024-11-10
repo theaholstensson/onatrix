@@ -193,6 +193,13 @@ footer {
   padding-top: 20px;
 }
 
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
 .hero {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -298,38 +305,6 @@ footer {
   margin-top: 90px;
 }
 
-.partners {
-  padding: 90px 0px;
-}
-.partners .container {
-  display: flex;
-  justify-content: space-around;
-}
-.partners .content {
-  display: flex;
-}
-
-.breadcrumb {
-  height: 240px;
-}
-.breadcrumb img {
-  position: absolute;
-  z-index: 0;
-}
-.breadcrumb .img-left {
-  bottom: 142px;
-}
-.breadcrumb .img-right {
-  right: 0;
-}
-.breadcrumb .container {
-  text-align: center;
-  margin-top: 80px;
-}
-.breadcrumb .container .navigation i {
-  margin: 0px 10px;
-}
-
 .founder {
   padding-top: 110px;
   padding-bottom: 150px;
@@ -385,6 +360,38 @@ footer {
   text-align: center;
 }
 .our-experts .container .headline h2 {
-  width: 50%;
+  width: 40%;
   margin: auto;
+}
+
+.breadcrumb {
+  height: 240px;
+}
+.breadcrumb img {
+  position: absolute;
+  z-index: 0;
+}
+.breadcrumb .img-left {
+  bottom: 85px;
+}
+.breadcrumb .img-right {
+  right: 0;
+}
+.breadcrumb .container {
+  text-align: center;
+  margin-top: 80px;
+}
+.breadcrumb .container .navigation i {
+  margin: 0px 10px;
+}
+
+.partners {
+  padding: 90px 0px;
+}
+.partners .container {
+  display: flex;
+  justify-content: space-around;
+}
+.partners .content {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */

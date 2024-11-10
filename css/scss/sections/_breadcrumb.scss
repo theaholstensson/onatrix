@@ -1,0 +1,29 @@
+.breadcrumb {
+    height: 240px;
+
+    img {
+        position: absolute;
+        z-index: 0;
+    }
+
+    .img-left {
+        bottom: 85px;  
+    }
+
+    .img-right {
+        right: 0;
+    }
+
+    .container {
+        text-align: center;
+        margin-top: 80px;
+
+        .navigation {
+
+            i {
+                margin: 0px 10px;
+            }
+        }
+    }
+
+}
