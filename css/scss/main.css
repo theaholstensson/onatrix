@@ -192,6 +192,9 @@ h6 {
 footer {
   padding-top: 20px;
 }
+footer p, footer span {
+  font-weight: 200;
+}
 
 .wrapper {
   height: 100vh;
@@ -354,14 +357,55 @@ footer {
 }
 
 .our-experts {
-  margin-top: 120px;
+  padding-top: 120px;
+  text-align: center;
+  padding-bottom: 90px;
 }
 .our-experts .container .headline {
   text-align: center;
+  margin-bottom: 40px;
 }
 .our-experts .container .headline h2 {
   width: 40%;
   margin: auto;
+}
+.our-experts .container .first-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+  margin-bottom: 50px;
+}
+.our-experts .container .second-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0;
+}
+.our-experts .container .expert-card {
+  border: 1px solid #EAEAEA;
+  margin: 0;
+  padding: 0;
+}
+.our-experts .container .expert-card img {
+  width: 100%;
+}
+.our-experts .container .expert-card .info {
+  text-align: start;
+  padding: 20px 30px;
+}
+.our-experts .container .expert-card .info h4 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.our-experts .container .expert-card .info h5 {
+  margin-bottom: 5px;
+}
+.our-experts .container .expert-card .info p {
+  font-size: 14px;
+  font-weight: 200;
 }
 
 .breadcrumb {
@@ -394,4 +438,66 @@ footer {
 }
 .partners .content {
   display: flex;
+}
+
+.contact-info {
+  padding-top: 40px;
+}
+.contact-info .container {
+  display: flex;
+}
+.contact-info .container .picture .dots {
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: 350px;
+}
+.contact-info .container .picture .form {
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+}
+.contact-info .container .picture .man {
+  position: relative;
+}
+.contact-info .container .content {
+  margin-top: 180px;
+  margin-left: 200px;
+}
+.contact-info .container .content h2 {
+  width: 70%;
+  margin-bottom: 30px;
+}
+.contact-info .container .content .contact-box {
+  margin-bottom: 40px;
+  display: flex;
+}
+.contact-info .container .content .contact-box i {
+  font-size: 22px;
+  margin-right: 10px;
+  color: #D9C3A9;
+}
+.contact-info .container .content .contact-box .italic {
+  font-style: italic;
+}
+
+.map {
+  height: 750px;
+}
+
+.request-a-call-back {
+  height: 580px;
+  width: 1170px;
+  background-color: #FFFFFF;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  bottom: 500px;
+  margin-bottom: 0;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+.request-a-call-back .container {
+  padding-top: 70px;
+  text-align: center;
+  width: 50%;
 }/*# sourceMappingURL=main.css.map */

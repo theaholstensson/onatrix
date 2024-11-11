@@ -68,16 +68,65 @@
 }
 
 .our-experts {
-    margin-top: 120px;
+    padding-top: 120px;
+    text-align: center;
+    padding-bottom: 90px;
 
     .container {
 
         .headline {
             text-align: center;
+            margin-bottom: 40px;
             
             h2 {
                 width: 40%;
                 margin: auto;
+            }
+        }
+
+        .first-row {
+            display: grid; 
+            grid-template-columns: repeat(3, 1fr); 
+            grid-template-rows: 1fr; 
+            grid-column-gap: 30px;
+            grid-row-gap: 0px;
+            margin-bottom: 50px;
+        }
+
+        .second-row {
+            display: grid; 
+            grid-template-columns: repeat(4, 1fr); 
+            grid-template-rows: 1fr; 
+            grid-column-gap: 30px;
+            grid-row-gap: 0; 
+        }
+
+        .expert-card {
+            border: 1px solid #EAEAEA;
+            margin: 0;
+            padding: 0;
+
+            img {
+                width: 100%;
+            }
+
+            .info {
+                text-align: start;
+                padding: 20px 30px;
+
+                h4 {
+                    font-weight: 600;
+                    margin-bottom: 5px;
+                }
+
+                h5 {
+                    margin-bottom: 5px;
+                }
+
+                p {
+                    font-size: 14px;
+                    font-weight: 200;
+                }
             }
         }
     }
